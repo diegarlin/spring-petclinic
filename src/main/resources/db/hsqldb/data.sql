@@ -8,7 +8,8 @@ INSERT INTO authorities(id,username,authority) VALUES (2,'owner1','owner');
 INSERT INTO users(username,password,enabled) VALUES ('vet1','v3t',TRUE);
 INSERT INTO authorities(id,username,authority) VALUES (3,'vet1','veterinarian');
 
-INSERT INTO achievement(id, name,threshold,description,badge_image) VALUES (1,'Viciado', 10.0, 'Si juegas 10.0 partidas o más', 'https://bit.ly/proGamer');
+INSERT INTO achievement(id, name,threshold,description,badge_image) VALUES (1,'Viciado', 10.0, 'Si juegas <THRESHOLD> partidas o más', 'https://bit.ly/certifiedGamer');
+INSERT INTO achievement(id, name,threshold,description,badge_image) VALUES (2,'Triunfador', 20.0, 'Si ganas <THRESHOLD>  o más partidas es que eres todo un triunfador', 'https://bit.ly/proGamer');
 
 INSERT INTO vets(id, first_name,last_name) VALUES (1, 'James', 'Carter');
 INSERT INTO vets(id, first_name,last_name) VALUES (2, 'Helen', 'Leary');
